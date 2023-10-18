@@ -1,4 +1,5 @@
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { BoardingPassMap } from "./boardingPassMap.entity";
 
 @Entity()
 export class Flight {
@@ -20,5 +21,7 @@ export class Flight {
 
     @Column({ name: "airplane_id" })
     airplaneId: number
+
+    passengers: BoardingPassMap[]
 
 }

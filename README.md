@@ -3,7 +3,7 @@
 
 ## Descripcion
 
-Prueba tecnica bsale
+Prueba tecnica bsale hecha con NestJS
 
 ## Install
 
